@@ -34,7 +34,7 @@ do
     end
     end
     end
-    _G.Color = Color3.fromRGB(178, 102, 255)
+    _G.Color = Color3.fromRGB(28, 252, 3)
     function CircleClick(Button, X, Y)
     coroutine.resume(
       coroutine.create(
@@ -163,10 +163,10 @@ do
             ThunderImageUI.BorderSizePixel = 0
             ThunderImageUI.Position = UDim2.new(0.0, 0, 0.0, 0)
             ThunderImageUI.Size = UDim2.new(0, 50, 0, 50)
-            ThunderImageUI.Image = "http://www.roblox.com/asset/?id=17412853251"
+            ThunderImageUI.Image = "http://www.roblox.com/asset/?id=17413666088"
     
     _G.Logo = 14103696428
-    _G.Logo1 = 17412853251
+    _G.Logo1 = 17413666088
     local UI = Instance.new("ScreenGui")
     UI.Name = randomString
     UI.Parent = game.CoreGui:WaitForChild("RobloxGui"):WaitForChild("Modules")
@@ -250,7 +250,7 @@ do
     Title.Position = UDim2.new(0.05, 0, 0.04, 0)
     Title.Size = UDim2.new(0, 483, 0, 31)
     Title.Font = Enum.Font.GothamBold
-    Title.Text = "Virgo Spectrum ".."<font color='rgb(54, 52, 51)'>2.0 </font>".."- "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+    Title.Text = "Virgo Spectrum ".."<font color='rgb(28, 252, 3)'>2.0 </font>".."- "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
     Title.RichText = true;
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 15.000
