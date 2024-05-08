@@ -745,7 +745,7 @@ do
     Text2.Size = UDim2.new(0, 40, 0, 12)
     Text2.ZIndex = 16
     Text2.Font = Enum.Font.GothamBold
-    Text2.Text = "Subscribe Youtube VirgoSpectrum !"
+    Text2.Text = "Subscribe to VirgoSpectrum!"
     Text2.TextColor3 = Color3.fromRGB(255, 255, 255)
     Text2.TextSize = 14.000
     
@@ -792,7 +792,7 @@ do
           TextSize = 12
         }
       ):Play()
-      setclipboard("nil")
+      setclipboard("youtube.com/@VirgoScripts")
       end)
     
     local Butn3 = Instance.new("Frame")
